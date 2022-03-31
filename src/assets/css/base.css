@@ -1,0 +1,12 @@
+/* 移动端布局 VM布局 */
+/* 移动端默认750px   100px / 750 * 100 = 13.333333 */
+html {
+    font-size: 13.333333vw; 
+}
+
+/* 防止字体过大 */
+@media (min-width: 750px) {
+    html {
+        font-size: 100px;
+    }
+}
